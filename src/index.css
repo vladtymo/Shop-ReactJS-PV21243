@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Layout .main {
+  flex-grow: 1;
+}
